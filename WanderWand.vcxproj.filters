@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{8756316c-7cbf-4540-b242-11bd72cf1974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MFC\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MFC\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MFC\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="WanderWand">
+      <UniqueIdentifier>{75717dbb-8aa4-4a61-a311-d8cf70e5f8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WanderWand\Headers">
+      <UniqueIdentifier>{71aef39f-ec1a-4e80-8c45-ea671ffe39c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WanderWand\Resources">
+      <UniqueIdentifier>{1500b6c8-e353-4678-8629-11c2236bb462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WanderWand\Sources">
+      <UniqueIdentifier>{56a69da6-dd1c-4e95-8bdc-4cdd2995b364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WanderWand.h">
+      <Filter>MFC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderWandDlg.h">
+      <Filter>MFC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>MFC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>MFC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>MFC\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualInterpreter.h">
+      <Filter>WanderWand\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Options.h">
+      <Filter>WanderWand\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomContainers.h">
+      <Filter>WanderWand\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WanderWand.cpp">
+      <Filter>MFC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderWandDlg.cpp">
+      <Filter>MFC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>MFC\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualInterpreter.cpp">
+      <Filter>WanderWand\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WanderWand.rc">
+      <Filter>MFC\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WanderWand.rc2">
+      <Filter>MFC\Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WanderWand.ico">
+      <Filter>MFC\Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
