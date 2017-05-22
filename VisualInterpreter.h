@@ -36,7 +36,7 @@
 
 	protected:
 		void procFn(BYTE *r, BYTE *g, BYTE *b);
-		void ConvertRgbToYuy2(BYTE *TwoPixelsRGB, BYTE *lpData);
+		void ConvertRgbToYuy2(BYTE *TwoPixelsRGB, BYTE *Macropixel);
 
 	private:
 		int clip(int x);
